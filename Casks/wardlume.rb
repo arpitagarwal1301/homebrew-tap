@@ -2,8 +2,7 @@ cask "wardlume" do
   version "1.2.0"
   sha256 "16f0f08d558282812773570c320f58f95a1e14741680b5cc7f6e88182ebd87ff"
 
-  url "https://github.com/arpitagarwal1301/wardlume/releases/download/v#{version}/Wardlume-#{version}.pkg",
-      verified: "github.com/arpitagarwal1301/wardlume/"
+  url "https://github.com/arpitagarwal1301/wardlume/releases/download/v#{version}/Wardlume-#{version}.pkg"
   name "Wardlume"
   desc "Lock input behind a glass shield while your AI agents keep working"
   homepage "https://github.com/arpitagarwal1301/wardlume"
