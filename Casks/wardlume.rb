@@ -1,6 +1,6 @@
 cask "wardlume" do
-  version "1.7.1"
-  sha256 "f3dfa35a773cab076b663dfd55c35791cb3842d009b8de32e1537b6be1567831"
+  version "1.7.2"
+  sha256 "81f7abe4f36864699f8213bf3b74a72a255c42fc7e7fa856d4a051bf4368bb52"
 
   url "https://github.com/arpitagarwal1301/wardlume-screen-lock/releases/download/v#{version}/Wardlume-#{version}.pkg"
   name "Wardlume"
