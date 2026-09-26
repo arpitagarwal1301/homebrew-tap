@@ -2,10 +2,10 @@ cask "wardlume" do
   version "1.7.0"
   sha256 "4c4e4e866ab4ccbec7f7a4163903cffc18026f8c684839f8a209a2aad7cc7b6c"
 
-  url "https://github.com/arpitagarwal1301/wardlume/releases/download/v#{version}/Wardlume-#{version}.pkg"
+  url "https://github.com/arpitagarwal1301/wardlume-screen-lock/releases/download/v#{version}/Wardlume-#{version}.pkg"
   name "Wardlume"
   desc "Lock input behind a glass shield while your AI agents keep working"
-  homepage "https://github.com/arpitagarwal1301/wardlume"
+  homepage "https://github.com/arpitagarwal1301/wardlume-screen-lock"
 
   livecheck do
     url :url
