@@ -12,10 +12,6 @@ cask "wardlume" do
     strategy :github_latest
   end
 
-  # Since 1.7.4 Wardlume updates itself (Sparkle); brew upgrade leaves it alone
-  # unless run with --greedy.
-  auto_updates true
-
   depends_on macos: :tahoe
   depends_on arch: :arm64
 
