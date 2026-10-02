@@ -1,6 +1,6 @@
 cask "wardlume" do
-  version "1.7.3"
-  sha256 "1d978e49fdf45de92ad41a8d2b011f96f82d47a36ba0274e38b572083db0800a"
+  version "1.7.4"
+  sha256 "7e07a0f3852aca8d30690ced7cd9b39c93cfa518211057a468860d04a5bfd007"
 
   url "https://github.com/arpitagarwal1301/wardlume/releases/download/v#{version}/Wardlume-#{version}.pkg"
   name "Wardlume"
@@ -11,6 +11,10 @@ cask "wardlume" do
     url :url
     strategy :github_latest
   end
+
+  # Since 1.7.4 Wardlume updates itself (Sparkle); brew upgrade leaves it alone
+  # unless run with --greedy.
+  auto_updates true
 
   depends_on macos: :tahoe
   depends_on arch: :arm64
