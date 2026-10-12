@@ -1,6 +1,6 @@
 cask "wardlume" do
-  version "1.8.0"
-  sha256 "75ac28509c16e1205f65fb58924e7bf7059e59f20da0bff6587cb3825a5cefd4"
+  version "1.9.0"
+  sha256 "1cee8953f6ce7a97ef7cff205463253075f0f2c7c6d9af2382d22196f6d26b40"
 
   url "https://github.com/arpitagarwal1301/wardlume/releases/download/v#{version}/Wardlume-#{version}.pkg"
   name "Wardlume"
